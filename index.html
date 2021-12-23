@@ -7,6 +7,72 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h1>Olá Mundo!!</h1>
+    <div class="container">
+      <form action="" method="get">
+        <div class="row">
+          <div class="col">
+            <h2 class="title">Endereço de Cobrança</h2>
+            <div class="inputBox">
+              <span>Nome Completo:</span>
+              <input type="text" placeholder="John Doe">
+            </div>
+            <div class="inputBox">
+              <span>E-mail:</span>
+              <input type="email" placeholder="example@example.com">
+            </div>
+            <div class="inputBox">
+              <span>Cidade:</span>
+              <input type="text" placeholder="Goiânia">
+            </div>
+            <div class="inputBox">
+              <span>Endereço:</span>
+              <input type="text" placeholder="Casa - Rua - Bairro">
+            </div>
+            <div class="flex">
+              <div class="inputBox">
+                <span>Estado:</span>
+                <input type="text" placeholder="Goiás">
+              </div>
+              <div class="inputBox">
+                <span>CEP:</span>
+                <input type="text" placeholder="12345-678">
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h2 class="title">Informações de Pagamento</h2>
+            <div class="inputBox">
+              <span>Cartões Aceitos:</span>
+              <div class="flagsArea">
+                <img src="assets/images/cards flag/cardflags.png">
+              </div>
+            </div>
+            <div class="inputBox">
+              <span>Número do Cartão:</span>
+              <input type="number" placeholder="1234 1234 1234 1234">
+            </div>
+            <div class="inputBox">
+              <span>Nome no Cartão:</span>
+              <input type="text" placeholder="JOHN J DOE">
+            </div>
+            <div class="inputBox">
+              <span>Mês de Vencimento:</span>
+              <input type="text" placeholder="Janeiro">
+            </div>
+            <div class="flex">
+              <div class="inputBox">
+                <span>Ano de Vencimento:</span>
+                <input type="number" placeholder="2030">
+              </div>
+              <div class="inputBox">
+                <span>CVV:</span>
+                <input type="number" placeholder="123">
+              </div>
+            </div>
+          </div>
+        </div>
+        <input type="submit" value="Finalizar Pagamento" class="submitButton">
+      </form>
+    </div>
   </body>
 </html>
